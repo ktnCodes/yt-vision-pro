@@ -17,8 +17,10 @@ The engine still lives in the `yt_vision_v2` package during migration, but the p
 
 ## Example Images:
 
+Video from: https://www.youtube.com/watch?v=24t04HzoIXY (2hour 20min video) Rough estimate: ~100-120K tokens for the full deep-research run
 <img width="1204" height="1307" alt="image" src="https://github.com/user-attachments/assets/1f0167a6-4ca0-40dd-80df-32ad8fc7105e" />
 
+Video from: https://youtu.be/KZPo15M2DbM (6 min video) Rough estimate: ~50-70K tokens for the full deep-research run
 <img width="1117" height="1219" alt="image" src="https://github.com/user-attachments/assets/c31f5e59-b120-49af-b56a-2d9b9030608f" />
 
 ## Prerequisites
