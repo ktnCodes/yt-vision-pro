@@ -15,6 +15,12 @@ The engine still lives in the `yt_vision_v2` package during migration, but the p
 7. Aligns captions to frames (YouTube VTT or whisper fallback)
 8. Generates chunked Markdown manifests with density metadata for LLM synthesis
 
+## Example Images:
+
+<img width="1204" height="1307" alt="image" src="https://github.com/user-attachments/assets/1f0167a6-4ca0-40dd-80df-32ad8fc7105e" />
+
+<img width="1117" height="1219" alt="image" src="https://github.com/user-attachments/assets/c31f5e59-b120-49af-b56a-2d9b9030608f" />
+
 ## Prerequisites
 
 - Python 3.10+
