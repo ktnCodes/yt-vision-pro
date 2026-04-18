@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yt-vision-pro"
+version = "0.1.0"
+description = "YouTube visual analysis pipeline — chapter-aware extraction, OCR-first slide preservation, and LLM manifest synthesis"
+requires-python = ">=3.10"
+dependencies = [
+    "yt-dlp",
+    "scenedetect[opencv]",
+    "imagehash",
+    "Pillow",
+    "webvtt-py",
+    "typer",
+    "rich",
+    "loguru",
+    "av",
+    "rapidocr-onnxruntime",
+]
+
+[project.optional-dependencies]
+whisper = ["faster-whisper"]
+dev = ["pytest", "pytest-cov"]
+
+[project.scripts]
+yt-vision-pro = "yt_vision_pro.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

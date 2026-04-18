@@ -1,0 +1,22 @@
+{
+  "reference_videos": [
+    {
+      "id": "KZPo15M2DbM",
+      "url": "https://www.youtube.com/watch?v=KZPo15M2DbM",
+      "category": "chaptered-lecture",
+      "description": "Chaptered lecture with slides"
+    },
+    {
+      "id": "CyLYY_xb5bQ",
+      "url": "https://www.youtube.com/watch?v=CyLYY_xb5bQ",
+      "category": "whiteboard-diagrams",
+      "description": "Whiteboard / dense diagram content"
+    },
+    {
+      "id": "pHr1O_Af5NA",
+      "url": "https://www.youtube.com/watch?v=pHr1O_Af5NA",
+      "category": "code-walkthrough",
+      "description": "Code / setup walkthrough / demo"
+    }
+  ]
+}
